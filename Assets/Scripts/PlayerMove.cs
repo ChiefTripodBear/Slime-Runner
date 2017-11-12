@@ -7,8 +7,16 @@ public class PlayerMove : MonoBehaviour
     public float m_forwardSpeed = 20f;
     public float m_backSpeed = 15f;
     public float m_turnSpeed = 200f;
+    
+    public enum hexChange { raise, lower };
 
     void Update()
+    {
+        Move();
+        hexMove();
+    }
+
+    void Move()
     {
         if (Input.GetAxis("Vertical") > 0)
         {
@@ -25,4 +33,18 @@ public class PlayerMove : MonoBehaviour
         }
     }
 
+    void hexMove()
+    {
+        if (Input.GetKeyDown("Raise"))
+        {
+
+        }
+
+        if (Input.GetKeyDown("Lower"))
+        {
+
+        }
+
+
+    }
 }

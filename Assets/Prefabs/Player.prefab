@@ -41,6 +41,7 @@ GameObject:
   - component: {fileID: 136334219108025966}
   - component: {fileID: 23349517783043358}
   - component: {fileID: 114724460154457656}
+  - component: {fileID: 114975865941332138}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -167,6 +168,19 @@ MonoBehaviour:
   m_forwardSpeed: 20
   m_backSpeed: 15
   m_turnSpeed: 200
+--- !u!114 &114975865941332138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1657700733970812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b78590c9e4f5354bbd2b7ccfba857f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  healthText: {fileID: 0}
 --- !u!135 &135064067200211640
 SphereCollider:
   m_ObjectHideFlags: 1
